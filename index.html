@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,viewport-fit=cover"
+    />
+    <!-- 版本号 -->
+    <%- injectVer %>
+    <!-- 标题 -->
+    <%- injectTitle %>
+    <!-- 注脚本 -->
+    <%- injectScript %>
+    <!-- 高德地图 -->
+    <script type="text/javascript">
+      window._AMapSecurityConfig = {
+        securityJsCode: '81d2ece372bea4ba88dfb545b8f3b4d6'
+      }
+    </script>
+    <script
+      type="text/javascript"
+      src="https://webapi.amap.com/maps?v=1.4.15&key=6bc3684da0d3e34667f5b174beba09c4&plugin=AMap.Geocoder"
+    ></script>
+    <!-- UI组件库 1.0 -->
+    <script src="//webapi.amap.com/ui/1.1/main.js?v=1.1.1"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

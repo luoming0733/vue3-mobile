@@ -1,0 +1,31 @@
+# 登录
+POST http://192.168.1.136:5570/cloud-platform/cloudDriverLogin/doLogin HTTP/1.1
+Content-Type: application/json
+
+{
+  "driverPassword": "88888888",
+  "loginType": 1,
+  "phoneNumber": "18888888887"
+}
+
+###
+
+# 列表查询
+POST http://192.168.1.136:5570/cloud-order/cloudDriverOrderController/find HTTP/1.1
+Content-Type: application/json
+cloud-auth-token:ec746348-5885-4600-a6fa-a390d7f3ae79
+
+
+{
+  "page": "1",
+  "size": 10,
+}
+
+###
+
+# 查询司机首页完成数
+GET http://192.168.1.136:5570/cloud-order/cloudDriverOrderController/driverHomeCompletionCounts HTTP/1.1
+Content-Type: application/json
+cloud-auth-token:ec746348-5885-4600-a6fa-a390d7f3ae79
+
+###

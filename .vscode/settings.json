@@ -1,0 +1,47 @@
+{
+  "path-intellisense.mappings": {
+    "@": "${workspaceFolder}/src"
+  },
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "stylelint.enable": true,
+  "vue.server.hybridMode": true,
+  "cSpell.words": [
+    "AGGREEMENT",
+    "AMAP",
+    "appkey",
+    "bianji",
+    "breakline",
+    "commitlint",
+    "demi",
+    "hnlot",
+    "iconify",
+    "jinggao",
+    "jsapi",
+    "mockjs",
+    "Orer",
+    "pinia",
+    "poppable",
+    "preinstall",
+    "servertest",
+    "statu",
+    "stylelint",
+    "Tabbar",
+    "ttou",
+    "unocss",
+    "unplugin",
+    "Vant",
+    "vconsole",
+    "VITE",
+    "vueuse",
+    "wechat",
+    "weixin",
+    "xiangji"
+  ],
+  "git.ignoreLimitWarning": true,
+  "i18n-ally.localesPaths": [
+    "src/locales",
+    "src/locales/lang"
+  ]
+}
